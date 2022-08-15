@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<head>
+  <link href="/normalize.css" rel="stylesheet">
+  <style>
+    header {
+      text-align: center;
+      background: url('https://wallpaperaccess.com/full/1219623.jpg');
+      background-size: cover;
+      color: white;
+    }
+    a {
+      color: #c5b0eb;
+    }
+    h1 {
+      font-size: 70px;
+      color: #f0edf5;
+    }
+    img {
+      margin: 40px 0px 0px 0px;
+      border: 10px solid #422e66;
+      border-radius: 1000px;
+    }
+    ul {
+      padding: 10px;
+      background: rgba(0,0,0,0.5);
+    }
+    li {
+      display: inline;
+      padding: 0px 10px 0px 10px;
+    }
+    article {
+      max-width: 500px;
+      padding: 20px;
+      margin: 0 auto;
+    }
+    @media (max-width: 500px) {
+      h1 {
+        font-size: 36px;
+        padding: 5px;
+      }
+      li {
+        padding: 5px;
+        display: block;
+        color: teal;
+      }
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <img src="https://wallpaperaccess.com/full/1882560.jpg"
+      width = "550"
+      height= "300"
+      />
+    <h1>Chris' Blog!</h1>
+    <ul>
+      <li><a href="#">About Me</a></li>
+      <li><a href="#">Socials</a></li>
+      <li><a href="#">End Notes</a></li>
+    </ul>
+  </header>
+  <article>
+    <h2>Genshin: The Upcoming 3.0 Update</h2>
+    <p>A lot of leaks have dropped for the new genshin 3.0 update that will be coming in late August. It looks like we'll be starting to actually delve INTO sumeru, the nation of knowledge, and even get our hands on three new characters: Tighnari and Dori, 5 stars, and Collei, a 4 star (fun fact: she was present in the genshin webcomic that has since been discontinued). It also appears that Zhongli and Ganyu will be getting reruns due to the games upcoming 2 year anniversary.</p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Why YOU Should Play: Ai The Somnium Files</h2>
+    <p>AI:TSF is a visual novel murder-mystery game that follows the story of Kaname Date, a rogue detective working for an investigation team called ABIS. They specialize in eye-based Artificial Intelligence, which is why he has an AI partner (called aiba) that assists him in his field of work, locqted right  in his left eye. Without delving too into spoilers, AI:TSF is especially interesting because it uses the concepts of dreams to help piece together pieces of information in order to lead you through the case. It's a story of mental trauma, pain, and how people can heal from them in order to suffice themselves in their own respective journeys. If murder mysteries are your type of video game, then I HIGHLY recommend it to you. </p>
+    <button>Like</button>
+  </article>
+  <article>
+    <h2>Wait, hold on: Who even *are* you?</h2>
+    <p>Right!! Intros. Forgot abt that for a sec. My names Christopher Camacho, but you could just call me Chris C (since there are Christopher's everywhere, I guess)! I'm very interetsed in interactive media and LOVE to program things: even when my lazy side takes over. Here, I just talk about random things, and may or may not update information every other hour. The about me, socials, and end notes tabs don't actually work yet, but I might get them up and running!... <br><br><br>...someday...</p>
+    <button>Like</button>
+  </article>
+  <script>
+    $("button").on("click", function() {
+      alert("Clicked!");
+    });
+  </script>
+</body>
